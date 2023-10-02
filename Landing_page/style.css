@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 1% auto;
+  }
+  nav > h4{
+    font-size: 2rem;
+  }
+  nav > h4 > span {
+    color: blue;
+  }
+  nav > ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    padding-top: 2%;
+  }
+  nav > ul > li{
+    list-style: none;
+  }
+  nav > ul > li > a{
+    text-decoration: none;
+  }
+  nav > ul > li > button{
+    background-color: blue;
+    color: #fff;
+    padding: 0.45rem;
+    border-radius: 15px;
+    border: none;
+  }
+  .home{
+    display: flex;
+    width: 85%;
+    margin: 2% auto;
+    align-items: center;
+  }
+  .home > .box{
+    width: 50%;
+  }
+  .home > .box > img{
+    width: 100%;
+  }
+  .home > .box h1{
+    color: blue;
+    font-size: 4.9rem;
+    font-family: system-ui;
+  }
+  .box p{
+    margin: 3.5% 0;
+    line-height: 1.5;
+    font-size: 20px;
+  }
+  .box > button{
+    background-color: blue;
+    color: #fff;
+    padding: 0.75rem;
+    border-radius: 15px;
+    border: none;
+  }
+.card{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-box{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 45px;
+    color: white;
+}
+.right-box img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+.item-box1{
+    display: flex;
+    gap: 65px;
+}
+.item-box1 p{
+    font-size: 0.8rem;
+}
+footer {
+    height: 100px;
+    background-color: blue;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 1.3rem;
+}
